@@ -1,0 +1,32 @@
+.cardStyling {
+  background-color: #f7cc50;
+  border-radius: 10px;
+  box-shadow: 0px 2px 60px rgba(247, 204, 80, 0.2);
+  width: 43vw;
+  min-width: 300px;
+  padding-bottom: 24px;
+}
+
+.cardStyling h4 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: 8%;
+  margin-top: 36px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.qMark {
+  width: 20px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+.testimony {
+  width: 80%;
+  margin-left: 8%;
+  margin-right: auto;
+  font-family: "EB Garamond";
+  font-size: 18px;
+}

@@ -1,0 +1,29 @@
+.container {
+  border-radius: 10px;
+  background: url("../assets/footer-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bfbbba;
+  height: 500px;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  padding-top: 180px;
+  padding-left: 60px;
+  margin-bottom: 0px;
+  color: #131c2f;
+}
+.container p {
+  padding-left: 60px;
+  font-family: "EB Garamond";
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.container Button {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: auto;
+}

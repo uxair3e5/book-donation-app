@@ -1,0 +1,103 @@
+:root {
+  --purple: #b190f8;
+  --yellow: #f7cc50;
+  --red: #f25b5c;
+  --green: #91f7b2;
+  --blue: #6ea1f0;
+}
+
+.cateContainer {
+  height: max-content;
+  width: 12em;
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  z-index: 0;
+  margin-left: 40px;
+  margin-right: auto;
+  position: relative;
+  top: 32px;
+} */
+
+.title {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  z-index: 2;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: var(--purple);
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  bottom: 8px;
+  z-index: -1;
+}
+
+.title[data-color="purple"]::before {
+  background: var(--purple);
+}
+
+.title[data-color="yellow"]::before {
+  background: var(--yellow);
+}
+.title[data-color="red"]::before {
+  background: var(--red);
+}
+.title[data-color="green"]::before {
+  background: var(--green);
+}
+.title[data-color="blue"]::before {
+  background: var(--blue);
+}
+
+.cateDescription button[data-color="purple"] {
+  background-color: var(--purple);
+}
+.cateDescription button[data-color="yellow"] {
+  background-color: var(--yellow);
+}
+.cateDescription button[data-color="red"] {
+  background-color: var(--red);
+}
+.cateDescription button[data-color="green"] {
+  background-color: var(--green);
+}
+.cateDescription button[data-color="blue"] {
+  background-color: var(--blue);
+}
+
+.cateDescription p {
+  font-family: "EB Garamond";
+  color: #7d8491;
+  font-size: 20px;
+}
+
+.cateDescription button {
+  background-color: var(--purple);
+  border-radius: 0px 0px 10px 10px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}

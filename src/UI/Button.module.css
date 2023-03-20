@@ -1,0 +1,18 @@
+.buttonDesign {
+  min-width: max-content;
+  height: max-content;
+  background: var(--color-yellow);
+  border-radius: 10px;
+  border-style: none;
+  color: var(--color-purple);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.buttonDesign:hover {
+  background-color: var(--color-yellow) !important;
+}
+
+.buttonDesign:active {
+  background-color: var(--color-yellow);
+}

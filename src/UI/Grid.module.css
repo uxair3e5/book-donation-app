@@ -1,0 +1,8 @@
+.gridSetting {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: none;
+  justify-content: center;
+  align-content: center;
+}

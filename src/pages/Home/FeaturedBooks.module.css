@@ -1,0 +1,27 @@
+.featuredBooks {
+  margin-top: 135px;
+  text-align: center;
+}
+
+.featuredBooks h2 {
+  color: #131c2f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 48px;
+  margin-bottom: 5px;
+}
+
+.featuredBooks h2 > span {
+  color: #f7cc50;
+}
+.featuredBooks p {
+  font-size: 1.5rem;
+  font-family: "EB Garamond";
+  font-style: normal;
+  margin-top: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}

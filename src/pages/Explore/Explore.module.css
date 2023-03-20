@@ -1,0 +1,13 @@
+@import "../../App.css";
+
+.categoryTypesContainer {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.categoryTypesContainer h2 {
+  color: var(--color-blackish);
+  font-size: 36px;
+  font-weight: 700;
+}

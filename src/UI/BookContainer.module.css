@@ -1,0 +1,22 @@
+.book {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 80%;
+}
+.book img {
+  width: 100%;
+}
+
+.book h4 {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.book p {
+  width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  color: #7d8491;
+  margin-top: 0px;
+}

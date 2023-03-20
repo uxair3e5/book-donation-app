@@ -1,0 +1,53 @@
+.container {
+  padding-top: 0px;
+}
+.bannerText {
+  justify-self: center;
+}
+
+.bannerText h1 {
+  font-size: 6rem;
+  margin-bottom: 0;
+  color: #131c2f;
+  font-weight: 700;
+}
+
+.bannerText span {
+  color: #f7cc50;
+}
+
+.bannerText p {
+  width: 70%;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.bannerImage {
+  padding-top: 40px;
+  padding-left: 8%;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+}
+
+.backgroundCircle {
+  height: 28em;
+  width: 28em;
+  background-color: #d6d5dd;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.bannerImage img {
+  width: 110% !important;
+  height: 122% !important;
+  z-index: 1;
+  height: 100%;
+  position: absolute;
+  right: 7px;
+  bottom: -12px;
+}

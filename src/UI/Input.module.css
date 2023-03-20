@@ -1,0 +1,14 @@
+.inputSetting {
+  height: 3.4em;
+  width: auto;
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  border: none;
+  padding-left: 8%;
+}
+
+.inputSetting::placeholder {
+  color: #b3b6bb;
+  font-family: "Poppins";
+  font-weight: 500;
+}

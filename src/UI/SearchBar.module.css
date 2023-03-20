@@ -1,0 +1,31 @@
+.searchContainer {
+  width: 100%;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.searchBar input {
+  background: url(../assets/search.svg) no-repeat scroll;
+  background-position: 94%;
+  width: 84%;
+  height: 3.8em;
+  padding: 5px;
+  padding-left: 20px;
+  border-style: none;
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  font-style: normal;
+  font-size: 0.8;
+  line-height: 24px;
+}
+
+.searchBar input::placeholder {
+  color: #b3b6bb;
+}
+
+@media (max-width: 600px) {
+  .searchBar input::placeholder {
+    width: 75%;
+    overflow: hidden;
+  }
+}

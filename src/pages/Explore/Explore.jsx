@@ -4,6 +4,8 @@ import BookSearch from "./BookSearch";
 import ScrollButton from "../../UI/ScrollButton";
 import Button from "../../UI/Button";
 import styles from "./Explore.module.css";
+import BooksContainer from "./BooksContainer";
+import CallToAction from "../../layout/CallToAction";
 
 const Explore = () => {
   const categoryArray = [
@@ -38,9 +40,10 @@ const Explore = () => {
               columnGap={20}
               justifyGridItems={"center"}
             >
-              {categoryArray.map((category) => {
+              {categoryArray.map((category, index) => {
                 return (
                   <Button
+                    key={index}
                     holder={category}
                     btnBackground={"var(--whitish)"}
                     btnBorder={"2px solid var(--yellow)"}
@@ -53,6 +56,8 @@ const Explore = () => {
           </div>
           <ScrollButton />
         </Grid>
+        <BooksContainer />
+        <CallToAction />
       </div>
     </>
   );

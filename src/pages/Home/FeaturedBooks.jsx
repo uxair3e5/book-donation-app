@@ -2,7 +2,7 @@ import React from "react";
 import BookContainer from "../../UI/BookContainer";
 import Grid from "../../UI/Grid";
 import styles from "./FeaturedBooks.module.css";
-import bookCover from "../../assets/book-b.png";
+
 import Wrapper from "../../UI/Wrapper";
 
 const FeaturedBooks = (props) => {
@@ -22,22 +22,22 @@ const FeaturedBooks = (props) => {
         gridRows="auto"
       >
         <BookContainer
-          bookImage={bookCover}
+          bookImage={require("../../assets/book-a.png")}
           bookName={"Working Well"}
           author={"By Dr John Brifa"}
         />
         <BookContainer
-          bookImage={bookCover}
+          bookImage={require("../../assets/book-b.png")}
           bookName={"Working Well"}
           author={"By Dr John Brifa"}
         />
         <BookContainer
-          bookImage={bookCover}
+          bookImage={require("../../assets/book-c.png")}
           bookName={"Working Well"}
           author={"By Dr John Brifa"}
         />
         <BookContainer
-          bookImage={bookCover}
+          bookImage={require("../../assets/book-d.png")}
           bookName={"Working Well"}
           author={"By Dr John Brifa"}
         />

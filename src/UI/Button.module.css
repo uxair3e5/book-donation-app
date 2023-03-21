@@ -12,7 +12,3 @@
 .buttonDesign:hover {
   background-color: var(--color-yellow) !important;
 }
-
-.buttonDesign:active {
-  background-color: var(--color-yellow);
-}

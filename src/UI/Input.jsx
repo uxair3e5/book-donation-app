@@ -13,6 +13,7 @@ const Input = (props) => {
     inputPadding,
     inputPaddingLeft,
     inputPaddingRight,
+    inputColor,
   } = props;
 
   const height = inputHeight;
@@ -25,6 +26,7 @@ const Input = (props) => {
   const padding = inputPadding;
   const paddingLeft = inputPaddingLeft;
   const paddingRight = inputPaddingRight;
+  const color = inputColor;
 
   const inputStyles = {
     height,
@@ -37,6 +39,7 @@ const Input = (props) => {
     padding,
     paddingLeft,
     paddingRight,
+    color,
   };
 
   return (

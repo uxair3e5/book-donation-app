@@ -3,6 +3,7 @@ import SearchBar from "../UI/SearchBar";
 import styles from "./Header.module.css";
 import logo from "../assets/logo.svg";
 import NavBar from "./NavBar";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -14,8 +15,8 @@ const Header = (props) => {
 
         <SearchBar />
         <div className={styles.regButtons}>
-          <a href="./login.html">Login</a>
-          <a href="./signup.html">Sign Up</a>
+          <NavLink to={"/login"}>Login</NavLink>
+          <NavLink to={"/signup"}>Sign Up</NavLink>
         </div>
       </div>
       <NavBar />

@@ -1,0 +1,29 @@
+@import url(../../App.css);
+
+.formWrap {
+  background-color: var(--color-blackish);
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 40px;
+}
+
+.formWrap Button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.label {
+  color: #f7cc50;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 2em;
+  padding-bottom: 12px;
+}
+
+.message textarea {
+  width: 88%;
+  border: none;
+  border-radius: 10px;
+}

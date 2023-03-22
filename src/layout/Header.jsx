@@ -15,8 +15,8 @@ const Header = (props) => {
 
         <SearchBar />
         <div className={styles.regButtons}>
-          <NavLink to={"/login"}>Login</NavLink>
-          <NavLink to={"/signup"}>Sign Up</NavLink>
+          <NavLink to={"login"}>Login</NavLink>
+          <NavLink to={"signup"}>Sign Up</NavLink>
         </div>
       </div>
       <NavBar />

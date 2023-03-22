@@ -15,7 +15,6 @@ const Login = () => {
 
   return (
     <Wrapper>
-      <Wrapper />
       <div className={styles.loginForm}>
         <label style={labelStyle} htmlFor="email">
           E-mail
@@ -30,9 +29,14 @@ const Login = () => {
         <label style={labelStyle} htmlFor="password">
           Password
         </label>
-        <Input type="password" name="password" placeholder="*********" />
+        <Input
+          type="password"
+          name="password"
+          placeholder="*********"
+          inputWidth={"100%"}
+        />
         <p>Forgot Password?</p>
-        <Button holder={"LOGIN"} />
+        <Button holder={"LOGIN"} btnWidth={"100%"} btnHeight={"40px"} />
       </div>
     </Wrapper>
   );

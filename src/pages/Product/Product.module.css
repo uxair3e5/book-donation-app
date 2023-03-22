@@ -1,0 +1,9 @@
+.productContainer {
+  padding-top: 50px;
+}
+
+.productContainer p {
+  font-size: "12px";
+  font-weight: 500;
+  color: var(--color-darkGray);
+}

@@ -26,4 +26,11 @@
   width: 88%;
   border: none;
   border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 8%;
+}
+
+.message textarea::placeholder {
+  color: var(--color-darkGray);
+  font-weight: 500;
 }

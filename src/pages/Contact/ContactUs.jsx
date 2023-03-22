@@ -18,7 +18,6 @@ const ContactUs = () => {
           <ContactForm />
         </Grid>
       </div>
-      <Wrapper />
     </Wrapper>
   );
 };

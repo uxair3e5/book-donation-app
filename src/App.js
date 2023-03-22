@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppNavigation from "./AppNavigation";
 import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";
+import Product from "./pages/Product/Product";
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       <Routes>
         <Route path="/" element={<AppNavigation />}>
           <Route index element={<HomePage />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/donate" element={<div>About Page</div>} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="explore" element={<Explore />} />
+          <Route path="explore/product" element={<Product />} />
+          <Route path="donate" element={<div>About Page</div>} />
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<SignUp />} />
           <Route path="*" element={<div>Error 404 Not Found</div>} />
         </Route>
       </Routes>

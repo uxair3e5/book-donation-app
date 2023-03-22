@@ -27,7 +27,7 @@ const BookSearch = () => {
           justifyGridItems={"center"}
         >
           <div>
-            <label for="book-search" style={labelStyle}>
+            <label htmlFor="book-search" style={labelStyle}>
               Search book
             </label>
             <Input
@@ -40,7 +40,7 @@ const BookSearch = () => {
           </div>
 
           <div>
-            <label for="loc-search" style={labelStyle}>
+            <label htmlFor="loc-search" style={labelStyle}>
               Your location
             </label>
             <Input

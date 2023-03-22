@@ -1,0 +1,23 @@
+.descriptionContainer p {
+  font-size: "12px";
+  font-weight: 500;
+  color: var(--color-darkGray);
+}
+
+.descriptionContainer h2 {
+  font-weight: 700;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.descriptionContainer h4 {
+  font-size: 24px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 5px auto;
+  color: var(--color-blackish);
+}
+
+.descriptionContainer hr {
+  color: var(--color-darkGray);
+}

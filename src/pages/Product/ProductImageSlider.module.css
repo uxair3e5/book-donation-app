@@ -1,0 +1,22 @@
+.imageContainer {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.imageContainer .image {
+  width: 100%;
+  min-width: 400px;
+}
+
+.scrollButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 5px;
+  height: 3em;
+  width: 90%;
+  min-width: 370px;
+  top: 42%;
+  left: 5%;
+}

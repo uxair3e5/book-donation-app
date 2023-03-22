@@ -17,6 +17,9 @@
   font-family: "Poppins";
 }
 
+body {
+  height: max-content !important;
+}
 h1,
 h2,
 h3,

@@ -1,20 +1,21 @@
 .footer {
-  margin-top: 60px;
-  margin-bottom: 30px;
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .footer p {
   width: 50%;
   display: inline-block;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 .icons {
   width: 40%;
   display: inline-block;
+  padding-bottom: 30px;
   float: right;
 }
 
@@ -29,5 +30,7 @@
   height: 1em;
   border-radius: 10px 10px 0px 0px;
   background-color: #f7cc50;
-  margin-bottom: -30px;
+  position: absolute;
+  bottom: 0;
+  top: auto;
 }

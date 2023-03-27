@@ -8,6 +8,7 @@ import AppNavigation from "./AppNavigation";
 import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";
 import Product from "./pages/Product/Product";
+import Donate from "./pages/Donate/Donate";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="explore" element={<Explore />} />
           <Route path="explore/product" element={<Product />} />
-          <Route path="donate" element={<div>About Page</div>} />
+          <Route path="donate" element={<Donate />} />
           <Route path="contactus" element={<ContactUs />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />

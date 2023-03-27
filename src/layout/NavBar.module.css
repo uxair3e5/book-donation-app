@@ -1,6 +1,5 @@
 .navBar {
   padding-top: 60px;
-  margin-left: -2%;
   width: 100%;
   text-align: center;
   background-color: white;
@@ -11,6 +10,8 @@
 .navBar ul {
   list-style: none;
   padding: 0%;
+  margin-left: -2%;
+  background-color: white;
 }
 
 .navBar ul li {

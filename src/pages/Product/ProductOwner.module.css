@@ -1,0 +1,73 @@
+.ownerDetail {
+  width: 75%;
+  border-radius: 10px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.userName {
+  width: 100%;
+  padding-left: 2%;
+}
+
+.userName h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px !important;
+}
+
+.userName p {
+  font-size: 18px !important;
+  margin-top: -5px !important;
+  color: #f7cc50 !important;
+  font-family: "EB Garamound";
+}
+
+.ownerDetail hr {
+  width: 100%;
+  background-color: var(--color-darkGray);
+}
+
+.userLocation {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.userLocation img {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.mapPin {
+  height: 25px;
+  width: 25px;
+  background-color: #f7cc5033;
+  border-radius: 100%;
+  padding: auto;
+  z-index: 5;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+.pin {
+  height: 7px;
+  width: 7px;
+  background-color: #f7cc50;
+  border-radius: 100%;
+  margin: 9px auto;
+  z-index: inherit;
+}

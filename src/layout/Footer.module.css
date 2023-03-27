@@ -31,6 +31,5 @@
   border-radius: 10px 10px 0px 0px;
   background-color: #f7cc50;
   position: absolute;
-  bottom: 0;
-  top: auto;
+  top: 100%;
 }

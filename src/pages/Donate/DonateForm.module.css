@@ -1,0 +1,142 @@
+.formContainer {
+  background-color: var(--color-blackish);
+  border-radius: 10px;
+}
+
+.formSubContainer {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formSubContainer h3 {
+  color: #f7cc50;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.formSubContainer button {
+  border-radius: 10px;
+  background-color: #131c2f;
+  border: 1px solid #f7cc50;
+  color: #f7cc50;
+  height: 3.2em;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.formSubContainer button img {
+  padding-right: 4%;
+  position: relative;
+  top: 5px;
+}
+
+.formSubContainer label {
+  color: #f7cc50;
+  margin-top: 30px;
+}
+
+.formSubContainer label span {
+  color: #eb5757;
+}
+
+.formSubContainer input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  height: 3.6em;
+  width: 100%;
+  color: #b3b6bb;
+  padding-left: 4%;
+  font-weight: 500;
+}
+
+.conditionBtns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  justify-content: space-evenly !important;
+  margin-top: 20px;
+}
+
+.conditionBtns button {
+  font-size: 14px;
+  width: 90%;
+  background: white !important;
+  color: var(--color-purple);
+}
+
+.conditionBtns button:hover {
+  background-color: #f7cc50 !important;
+}
+
+.formSubContainer textarea {
+  padding-left: 5%;
+  padding-top: 2%;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+}
+
+.mapContainer {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 15em;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url("../../assets/map.png");
+  background-size: cover;
+}
+
+.mapContainer img {
+  z-index: -1;
+}
+
+.mapPin {
+  height: 35px;
+  width: 35px;
+  background-color: #f7cc5033;
+  border-radius: 100%;
+  padding: auto;
+  z-index: 6;
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: 35%;
+  cursor: grab;
+}
+
+.pin {
+  height: 10px;
+  width: 10px;
+  background-color: #f7cc50;
+  border-radius: 100%;
+  margin: 12px auto;
+  z-index: inherit;
+}
+
+.formSubContainer Button {
+  margin-bottom: 50px;
+}
+
+.liveBookSearch {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  color: var(--color-whitish);
+  font-weight: 500;
+}
+
+.liveBookSearch h4 {
+  font-size: 24px;
+}
+
+.liveBookSearch p {
+  font-size: 18px;
+}

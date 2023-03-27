@@ -6,7 +6,7 @@ function BookContainer(props) {
   return (
     <div className={styles.bookContainer}>
       <div className={styles.book}>
-        <NavLink to={"product"} replace>
+        <NavLink to={"product"}>
           <img src={props.bookImage} alt="Book Cover" />
         </NavLink>
         <h4>{props.bookName}</h4>

@@ -14,9 +14,7 @@ const CategoryWrapper = (props) => {
           <br />
           Books
         </p>
-        <button type="button" data-color={props.themeColor}>
-          View
-        </button>
+        <button data-color={props.themeColor}>View</button>
       </div>
     </div>
   );

@@ -17,31 +17,45 @@ const FeaturedBooks = (props) => {
           readable content of a page when looking at its layout.
         </p>
       </div>
-      <Grid
-        gridColumns={"repeat(auto-fit, minmax(200px, 1fr))"}
-        gridRows="auto"
-      >
-        <BookContainer
-          bookImage={require("../../assets/book-a.png")}
-          bookName={"Working Well"}
-          author={"By Dr John Brifa"}
-        />
-        <BookContainer
-          bookImage={require("../../assets/book-b.png")}
-          bookName={"Working Well"}
-          author={"By Dr John Brifa"}
-        />
-        <BookContainer
-          bookImage={require("../../assets/book-c.png")}
-          bookName={"Working Well"}
-          author={"By Dr John Brifa"}
-        />
-        <BookContainer
-          bookImage={require("../../assets/book-d.png")}
-          bookName={"Working Well"}
-          author={"By Dr John Brifa"}
-        />
-      </Grid>
+      <div className={styles.gridContainer}>
+        <Grid
+          gridColumns={"repeat(auto-fit, minmax(250px, 1fr))"}
+          gridRows={"auto"}
+          justifyGridItems={"center"}
+          rowGap={20}
+        >
+          <BookContainer
+            bookImage={require("../../assets/book-a.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+          <BookContainer
+            bookImage={require("../../assets/book-b.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+          <BookContainer
+            bookImage={require("../../assets/book-c.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+          <BookContainer
+            bookImage={require("../../assets/book-d.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+          <BookContainer
+            bookImage={require("../../assets/book-d.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+          <BookContainer
+            bookImage={require("../../assets/book-d.png")}
+            bookName={"Working Well"}
+            author={"By Dr John Brifa"}
+          />
+        </Grid>
+      </div>
     </Wrapper>
   );
 };

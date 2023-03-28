@@ -2,3 +2,36 @@
   width: 100%;
   overflow-x: auto !important;
 }
+
+.containerSetting::-webkit-scrollbar {
+  width: 10px;
+}
+.containerSetting::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+.containerSetting::-webkit-scrollbar-thumb {
+  background-color: var(--color-yellow);
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+  visibility: hidden;
+}
+.containerSetting::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-yellow);
+  visibility: visible;
+}
+
+.categoryHeading {
+  font-size: 2rem;
+  margin-left: 54px;
+  margin-right: auto;
+  color: var(--color-blackish);
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .categoryHeading {
+    width: 100%;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}

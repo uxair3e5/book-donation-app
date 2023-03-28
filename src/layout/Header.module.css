@@ -55,3 +55,11 @@
 .regButtons a:active:after {
   opacity: 1;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .header {
+    width: 100%;
+    grid-template-columns: 10% 50% 20%;
+    column-gap: 5px;
+  }
+}

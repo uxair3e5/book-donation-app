@@ -7,28 +7,19 @@ import Wrapper from "../../../UI/Wrapper";
 
 const Categories = (props) => {
   const categoryData = [
-    { id: 1, subject: "Science", themeColor: "purple" },
-    { id: 2, subject: "Maths", themeColor: "red" },
-    { id: 3, subject: "English", themeColor: "green" },
-    { id: 4, subject: "Biology", themeColor: "blue" },
-    { id: 5, subject: "Arts", themeColor: "blackish" },
-    { id: 6, subject: "Computer", themeColor: "darkGray" },
-    { id: 7, subject: "Technology", themeColor: "yellow" },
-    { id: 8, subject: "History", themeColor: "purple" },
+    { id: 1, bookCount: 200, subject: "Science", themeColor: "purple" },
+    { id: 2, bookCount: 200, subject: "Maths", themeColor: "red" },
+    { id: 3, bookCount: 200, subject: "English", themeColor: "green" },
+    { id: 4, bookCount: 200, subject: "Biology", themeColor: "blue" },
+    { id: 5, bookCount: 200, subject: "Arts", themeColor: "blackish" },
+    { id: 6, bookCount: 200, subject: "Computer", themeColor: "darkGray" },
+    { id: 7, bookCount: 200, subject: "Technology", themeColor: "yellow" },
+    { id: 8, bookCount: 200, subject: "History", themeColor: "purple" },
   ];
 
   return (
     <Wrapper>
-      <h2
-        style={{
-          fontSize: "32px",
-          marginLeft: "54px",
-          marginRight: "auto",
-          color: "#131C2F",
-        }}
-      >
-        Categories
-      </h2>
+      <h2 className={styles.categoryHeading}>Categories</h2>
       <Grid
         gridColumns={"50px 8fr 50px"}
         columnGap={5}
@@ -43,6 +34,7 @@ const Categories = (props) => {
                 <CategoryWrapper
                   key={category.id}
                   title={category.subject}
+                  bookCount={category.bookCount}
                   themeColor={category.themeColor}
                 />
               );

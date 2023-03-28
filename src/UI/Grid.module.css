@@ -6,3 +6,9 @@
   justify-content: center;
   align-content: center;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .gridSetting {
+    justify-content: center;
+  }
+}

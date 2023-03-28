@@ -1,6 +1,7 @@
 .featuredBooks {
   margin-top: 135px;
   text-align: center;
+  width: 100%;
 }
 
 .featuredBooks h2 {
@@ -24,4 +25,28 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .featuredBooks {
+    width: 28rem;
+  }
+
+  .featuredBooks p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .gridContainer {
+    width: 100%;
+    margin-left: 28%;
+    padding-top: 40px;
+  }
+
+  .gridContainer h4 {
+    text-align: center;
+  }
+  .gridContainer p {
+    text-align: center;
+  }
 }

@@ -7,9 +7,9 @@
 }
 
 .cateContainer {
-  height: max-content;
+  height: min-content;
   width: 12em;
-  background-color: #f4f7fc;
+  background-color: var(--color-lightGray);
   border-radius: 10px;
   text-align: center;
   font-size: 15px;
@@ -98,7 +98,7 @@
 
 .cateDescription p {
   font-family: "EB Garamond";
-  color: #7d8491;
+  color: var(--color-darkGray);
   font-size: 20px;
 }
 
@@ -112,4 +112,25 @@
   color: white;
   letter-spacing: 0.1em;
   font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .cateContainer {
+    margin-top: 30px !important;
+    padding-bottom: 0;
+  }
+
+  .title {
+    margin-top: 30px !important;
+  }
+
+  .cateDescription p {
+    margin-top: 20px !important;
+  }
+  .cateDescription button {
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    width: 100%;
+  }
 }

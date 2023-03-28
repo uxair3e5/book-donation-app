@@ -51,3 +51,43 @@
   right: 7px;
   bottom: -12px;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  h1 {
+    font-size: 50px !important;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    margin: auto !important;
+  }
+  Button {
+    width: 40% !important;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 30% !important;
+    margin-right: auto;
+  }
+
+  .bannerImage {
+    padding-left: 0;
+  }
+
+  .backgroundCircle {
+    height: 22em;
+    width: 22em;
+    background-color: #d6d5dd;
+    border-radius: 100%;
+    margin-left: 10%;
+    position: relative;
+  }
+  .bannerImage img {
+    width: 110% !important;
+    height: 122% !important;
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    right: 7px;
+    bottom: -12px;
+  }
+}
